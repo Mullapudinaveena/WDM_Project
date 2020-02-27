@@ -1,0 +1,43 @@
+/*1)   Create an external style sheet named mijares.css that configures the color and text for the mijares website
+
+
+•	Colors #777777 ( for the text), #FFFFFF( for the background), #000033 ( for the header   text background)
+ 
+•	Styles for the footer element selector that configure background color, font size ( .70 em) italics and centered text.
+
+
+•   Colors for the button; background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff
+100%); background-size: 200% auto; padding: 0px 35px; color: #222222;
+*/
+#wrapper{
+    width: 80%;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+  }
+/*font
+
+font-family: Roboto
+font-size: 15px
+font-weight: 400
+line-height: 1.667
+
+color para las h1 #6059f6, h2,h3 #000000
+color para las p #888888
+
+h1, h2, h3 ,h4, h5, h6 font-family: Rajdhani
+nav element, bold text, #777777( for the nav background);
+footer
+
+ background color: #04091e
+text color #888888
+
+anchor color #6059f6
+
+
+button
+
+ background-color: #6059f6
+color text: #fff*/
