@@ -9,13 +9,69 @@
 •   Colors for the button; background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff
 100%); background-size: 200% auto; padding: 0px 35px; color: #222222;
 */
+* {
+  font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 1.667;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: Rajdhani;
+ }
 #wrapper{
     width: 80%;
-    text-align: center;
+    
 }
 .container {
     display: flex;
     justify-content: space-around;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    
+  }
+  
+  .flex-container > div {
+    margin: 1%;
+    text-align: center;
+    
+  
+  }
+  .flex-container1 {
+    display: flex;
+  align-items: stretch;
+  
+  flex-wrap: nowrap;
+    
+  }
+  
+  .flex-container1 > div {
+    width: 100%;
+  margin: 3%;
+    
+  
+  }
+  .flex-footer {
+    display: flex;
+  align-items: stretch;
+  
+  flex-wrap: nowrap;
+    margin: 2%;
+  }
+  
+  .flex-footer > div {
+    
+    margin: 1%;
+    
+  
+  }
+  .linkStyle{
+  text-decoration: none;
+  }
+  .spacing{
+    padding-top: 3%;
   }
 /*font
 
