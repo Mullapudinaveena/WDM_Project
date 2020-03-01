@@ -142,9 +142,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .button{
-  background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%); 
-  background-size: 200% auto; 
+  /*background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%); 
   color: #222222;
+  */
+  background-color: #6059f6;
+  color: #fff;
+  background-size: 200% auto; 
   width:20%;
   margin:10px
 }
